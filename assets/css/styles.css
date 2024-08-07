@@ -1,0 +1,136 @@
+html body{
+    background: #1f1f1f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo img {
+    height: 40px; /* Adjust logo size */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 15px; /* Space between nav items */
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+nav ul li img {
+    height: 24px; /* Adjust icon size */
+    width: 24px; /* Adjust icon size */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Center text and icons vertically */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.clearfix{
+    clear: both;
+}
+#logo{
+    height: 150px;
+    margin-top: 25px;
+}
+#search{
+    border: 1px solid gray;
+    width: 500px;
+    border-radius: 30px;
+    padding: 0px;
+    margin: 30px 0px 0px 0px;
+}
+.buttons{
+    background: none;
+    border: 0px;
+    border-radius: 100px;
+}
+.rounded{
+    border-radius: 100px;
+}
+input{
+    width: 70%;
+    height: 40px;
+    margin-top: -15px;
+    background: none;
+    border: 0px;
+}
+#centers{
+    width: 100%;
+    justify-items: center;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text inside #centers */
+}
+.out{
+    margin: 30px 10px 0px 0px;
+    background: #303134;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+}
+footer{
+    margin-top: 123px;
+}
+footer {
+    background: #171717;
+    color: white;
+    width: 100%;
+    padding: 0;
+}
+
+.foot {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 40px;
+    border-bottom: 1px solid gray;
+}
+.fn{
+    display: flex;
+    justify-content: space-between;
+}
+.start{
+    display: flex;
+    width: calc(72% - 72px);
+}
+.end{
+    display: flex;
+    width: calc(28% - 28px);
+}
+.foot p {
+    margin: 0 15px;
+}
